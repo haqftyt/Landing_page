@@ -21,8 +21,9 @@
         </div>
         <div class="button-block">
             <button>Book Now</button>
-            <div><img src="/Landing_page/img/menubar.png" alt="" width="35px"></div> 
+           <!--<div><img src="/img/menubar.png" alt="" width="35px"></div> --> 
         </div>
+        <div class="menu"><img src="/img/menubar.png" alt="" width="35px"></div> 
     </nav>
     <div class="plan-box">
         <p style="color:white;font-weight: bold;">Plan your Goa Trip with</p>
@@ -30,5 +31,12 @@
         <button class="btn">Book your Trip</button>
         <button class="btn">Plan your Journey</button>
     </div>
+    <script>
+        const menu=document.querySelector('.menu');
+        const menulist=document.querySelector('nav div ul');
+        menu.addEventListener('click',()=>{
+            menulist.classList.toggle('showmenu');
+        })
+    </script>
 </body>
 </html>
