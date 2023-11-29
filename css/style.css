@@ -3,6 +3,7 @@
     padding:0;
     box-sizing: border-box;
     font-family: Arial;
+    cursor:pointer;
 }
 body{
 background-image: url("/Landing_page/img/travel.jpg");
