@@ -6,7 +6,7 @@
     cursor:pointer;
 }
 body{
-background-image: url("/img/travel.jpg");
+background-image: url("../img/travel.jpg");
 background-repeat: no-repeat;
 background-size:cover;
 }
@@ -88,7 +88,7 @@ span{
 /*mobile responsive code*/
 @media only screen and (max-width:842px){
     body{
-        background-image: url("/img/travel.jpg");
+        background-image: url("../img/travel.jpg");
         background-repeat: no-repeat;
         background-size:100% 600px;
         }
@@ -106,7 +106,7 @@ span{
     }
     div ul li{
         margin:0;
-        padding:5px;
+        padding:15px;
     }
     nav{
         flex-direction: column;
@@ -128,7 +128,7 @@ span{
 }
 @media all and (max-width:576px){
     body{
-        background-image: url("/img/travel.jpg");
+        background-image: url("../img/travel.jpg");
         background-repeat:no-repeat;
         background-size:100% 868px;
         }
