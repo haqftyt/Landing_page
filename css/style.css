@@ -1,9 +1,11 @@
 *{
-    box-sizing: border-box;
     margin:0;
     padding:0;
 }
 body{
-    background: url(https://images.squarespace-cdn.com/content/v1/5beb0a44f2e6b1113f9519d9/1613152340670-W4HKZM4S2R4R9E5CJE7X/Facts+about+travelling.jpg?format=1500w) no-repeat;
-    background-size:cover;
+
+background-image: url("/Landing_page/img/travel.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+
 }
