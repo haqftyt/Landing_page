@@ -6,7 +6,8 @@
     cursor:pointer;
 }
 body{
-background-image: url("../img/travel.jpg");
+/*background-image: url("../img/travel.jpg");*/
+background-image: url("https://www.skymetweather.com/content/wp-content/uploads/2022/05/Avoid-These-Mistakes-When-Travelling-this-Summer.jpg");
 background-repeat: no-repeat;
 background-size:cover;
 }
@@ -88,7 +89,8 @@ span{
 /*mobile responsive code*/
 @media only screen and (max-width:842px){
     body{
-        background-image: url("../img/travel.jpg");
+       /* background-image: url("../img/travel.jpg");*/
+       background-image: url("https://www.skymetweather.com/content/wp-content/uploads/2022/05/Avoid-These-Mistakes-When-Travelling-this-Summer.jpg");
         background-repeat: no-repeat;
         background-size:100% 600px;
         }
@@ -128,7 +130,8 @@ span{
 }
 @media all and (max-width:576px){
     body{
-        background-image: url("../img/travel.jpg");
+        /*background-image: url("../img/travel.jpg");*/
+        background-image: url("https://www.skymetweather.com/content/wp-content/uploads/2022/05/Avoid-These-Mistakes-When-Travelling-this-Summer.jpg");
         background-repeat:no-repeat;
         background-size:100% 868px;
         }
