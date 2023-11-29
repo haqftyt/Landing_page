@@ -61,3 +61,20 @@ button:hover{
     margin-top: 18px;
     margin-left:20px;
 }
+/*styling plan-box*/
+.plan-box{
+    margin-top:100px;
+    text-align: center;
+}
+span{
+    color:yellow;
+}
+.btn{
+    background-color: rgba(255,255,255,0.4);
+    margin:30px;
+    font-weight: 500;
+}
+.btn:hover{
+   background-color: transparent;
+   border:3px solid yellow;
+}
